@@ -106,5 +106,4 @@ get_download_url() {
   echo "https://ftp.postgresql.org/pub/source/v${version}/postgresql-${version}.tar.gz"
 }
 
-
 install_postgres $ASDF_INSTALL_TYPE $ASDF_INSTALL_VERSION $ASDF_INSTALL_PATH
